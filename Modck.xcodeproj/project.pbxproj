@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450A2C481B5B0C5900177601 /* Opee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450A2C471B5B0C5900177601 /* Opee.framework */; };
+		45273A581B5C3578008C71B7 /* ModckLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A571B5C3578008C71B7 /* ModckLabel.m */; };
+		45273A5B1B5C35CA008C71B7 /* ModckFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A5A1B5C35CA008C71B7 /* ModckFloor.m */; };
+		45273A921B5C4BE7008C71B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A911B5C4BE7008C71B7 /* AppDelegate.m */; };
+		45273A941B5C4BE7008C71B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A931B5C4BE7008C71B7 /* main.m */; };
+		45273A971B5C4BE7008C71B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A961B5C4BE7008C71B7 /* ViewController.m */; };
+		45273A9C1B5C4BE7008C71B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45273A9A1B5C4BE7008C71B7 /* Main.storyboard */; };
+		455325A11B5C683B006D4D0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455325A01B5C683B006D4D0A /* Images.xcassets */; };
+		455325A31B5C6AB6006D4D0A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 455325A21B5C6AB6006D4D0A /* Credits.rtf */; };
+		45F604AE1B5C5D89009F9EB8 /* Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F604AD1B5C5D89009F9EB8 /* Initialize.m */; };
+		45F604B21B5C5E30009F9EB8 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F604B11B5C5E30009F9EB8 /* Preferences.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		450A2C371B5B095B00177601 /* Modck.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Modck.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		450A2C3B1B5B095B00177601 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		450A2C3C1B5B095B00177601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450A2C471B5B0C5900177601 /* Opee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opee.framework; path = ../../../../../Library/Frameworks/Opee.framework; sourceTree = "<group>"; };
+		45273A571B5C3578008C71B7 /* ModckLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModckLabel.m; sourceTree = "<group>"; };
+		45273A5A1B5C35CA008C71B7 /* ModckFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModckFloor.m; sourceTree = "<group>"; };
+		45273A8C1B5C4BE7008C71B7 /* Modck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45273A8F1B5C4BE7008C71B7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		45273A901B5C4BE7008C71B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45273A911B5C4BE7008C71B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45273A931B5C4BE7008C71B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45273A951B5C4BE7008C71B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45273A961B5C4BE7008C71B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45273A9B1B5C4BE7008C71B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45273A9D1B5C4BE7008C71B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455325A01B5C683B006D4D0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		455325A21B5C6AB6006D4D0A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		45F604AD1B5C5D89009F9EB8 /* Initialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initialize.m; sourceTree = "<group>"; };
+		45F604B01B5C5E30009F9EB8 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		45F604B11B5C5E30009F9EB8 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450A2C341B5B095B00177601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450A2C481B5B0C5900177601 /* Opee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45273A891B5C4BE7008C71B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450A2C2E1B5B095B00177601 = {
+			isa = PBXGroup;
+			children = (
+				450A2C471B5B0C5900177601 /* Opee.framework */,
+				450A2C391B5B095B00177601 /* Modck */,
+				45273A8D1B5C4BE7008C71B7 /* ModckPreferences */,
+				450A2C381B5B095B00177601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		450A2C381B5B095B00177601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450A2C371B5B095B00177601 /* Modck.bundle */,
+				45273A8C1B5C4BE7008C71B7 /* Modck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450A2C391B5B095B00177601 /* Modck */ = {
+			isa = PBXGroup;
+			children = (
+				45F604AF1B5C5E1F009F9EB8 /* Preferences */,
+				45F604AC1B5C5D7C009F9EB8 /* Initialize */,
+				45273A591B5C35BE008C71B7 /* Floor */,
+				45273A561B5C3563008C71B7 /* Label */,
+				450A2C3A1B5B095B00177601 /* Supporting Files */,
+			);
+			path = Modck;
+			sourceTree = "<group>";
+		};
+		450A2C3A1B5B095B00177601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				450A2C3C1B5B095B00177601 /* Info.plist */,
+				450A2C3B1B5B095B00177601 /* .gitignore */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45273A561B5C3563008C71B7 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				45273A571B5C3578008C71B7 /* ModckLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		45273A591B5C35BE008C71B7 /* Floor */ = {
+			isa = PBXGroup;
+			children = (
+				45273A5A1B5C35CA008C71B7 /* ModckFloor.m */,
+			);
+			name = Floor;
+			sourceTree = "<group>";
+		};
+		45273A8D1B5C4BE7008C71B7 /* ModckPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				45273AA21B5C4BFF008C71B7 /* View controllers */,
+				45273AA11B5C4BF5008C71B7 /* Delegates */,
+				45273A9A1B5C4BE7008C71B7 /* Main.storyboard */,
+				455325A01B5C683B006D4D0A /* Images.xcassets */,
+				45273A8E1B5C4BE7008C71B7 /* Supporting Files */,
+			);
+			path = ModckPreferences;
+			sourceTree = "<group>";
+		};
+		45273A8E1B5C4BE7008C71B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45273A9D1B5C4BE7008C71B7 /* Info.plist */,
+				45273A8F1B5C4BE7008C71B7 /* .gitignore */,
+				45273A931B5C4BE7008C71B7 /* main.m */,
+				455325A21B5C6AB6006D4D0A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45273AA11B5C4BF5008C71B7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				45273A901B5C4BE7008C71B7 /* AppDelegate.h */,
+				45273A911B5C4BE7008C71B7 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		45273AA21B5C4BFF008C71B7 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45273A951B5C4BE7008C71B7 /* ViewController.h */,
+				45273A961B5C4BE7008C71B7 /* ViewController.m */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		45F604AC1B5C5D7C009F9EB8 /* Initialize */ = {
+			isa = PBXGroup;
+			children = (
+				45F604AD1B5C5D89009F9EB8 /* Initialize.m */,
+			);
+			name = Initialize;
+			sourceTree = "<group>";
+		};
+		45F604AF1B5C5E1F009F9EB8 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				45F604B01B5C5E30009F9EB8 /* Preferences.h */,
+				45F604B11B5C5E30009F9EB8 /* Preferences.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450A2C361B5B095B00177601 /* Modck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450A2C3F1B5B095B00177601 /* Build configuration list for PBXNativeTarget "Modck" */;
+			buildPhases = (
+				450A2C331B5B095B00177601 /* Sources */,
+				450A2C341B5B095B00177601 /* Frameworks */,
+				450A2C351B5B095B00177601 /* Resources */,
+				450A2C461B5B0BBE00177601 /* Move to Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modck;
+			productName = Modck;
+			productReference = 450A2C371B5B095B00177601 /* Modck.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		45273A8B1B5C4BE7008C71B7 /* ModckPreferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45273A9E1B5C4BE7008C71B7 /* Build configuration list for PBXNativeTarget "ModckPreferences" */;
+			buildPhases = (
+				45273A881B5C4BE7008C71B7 /* Sources */,
+				45273A891B5C4BE7008C71B7 /* Frameworks */,
+				45273A8A1B5C4BE7008C71B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModckPreferences;
+			productName = ModckPreferences;
+			productReference = 45273A8C1B5C4BE7008C71B7 /* Modck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450A2C2F1B5B095B00177601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mustafa Gezen";
+				TargetAttributes = {
+					450A2C361B5B095B00177601 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					45273A8B1B5C4BE7008C71B7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 450A2C321B5B095B00177601 /* Build configuration list for PBXProject "Modck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450A2C2E1B5B095B00177601;
+			productRefGroup = 450A2C381B5B095B00177601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450A2C361B5B095B00177601 /* Modck */,
+				45273A8B1B5C4BE7008C71B7 /* ModckPreferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450A2C351B5B095B00177601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45273A8A1B5C4BE7008C71B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45273A9C1B5C4BE7008C71B7 /* Main.storyboard in Resources */,
+				455325A31B5C6AB6006D4D0A /* Credits.rtf in Resources */,
+				455325A11B5C683B006D4D0A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450A2C461B5B0BBE00177601 /* Move to Extensions */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Move to Extensions";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Opee/Extensions";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450A2C331B5B095B00177601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F604AE1B5C5D89009F9EB8 /* Initialize.m in Sources */,
+				45273A581B5C3578008C71B7 /* ModckLabel.m in Sources */,
+				45F604B21B5C5E30009F9EB8 /* Preferences.m in Sources */,
+				45273A5B1B5C35CA008C71B7 /* ModckFloor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45273A881B5C4BE7008C71B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45273A971B5C4BE7008C71B7 /* ViewController.m in Sources */,
+				45273A941B5C4BE7008C71B7 /* main.m in Sources */,
+				45273A921B5C4BE7008C71B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45273A9A1B5C4BE7008C71B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45273A9B1B5C4BE7008C71B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450A2C3D1B5B095B00177601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		450A2C3E1B5B095B00177601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		450A2C401B5B095B00177601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Modck/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Opee/Extensions";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/CoreServicesInternal.framework/Versions/A",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.mstg.Modck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		450A2C411B5B095B00177601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Modck/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Opee/Extensions";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/CoreServicesInternal.framework/Versions/A",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.mstg.Modck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		45273A9F1B5C4BE7008C71B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ModckPreferences/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mstg.ModckPreferences;
+				PRODUCT_NAME = Modck;
+			};
+			name = Debug;
+		};
+		45273AA01B5C4BE7008C71B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ModckPreferences/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mstg.ModckPreferences;
+				PRODUCT_NAME = Modck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450A2C321B5B095B00177601 /* Build configuration list for PBXProject "Modck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450A2C3D1B5B095B00177601 /* Debug */,
+				450A2C3E1B5B095B00177601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450A2C3F1B5B095B00177601 /* Build configuration list for PBXNativeTarget "Modck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450A2C401B5B095B00177601 /* Debug */,
+				450A2C411B5B095B00177601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45273A9E1B5C4BE7008C71B7 /* Build configuration list for PBXNativeTarget "ModckPreferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45273A9F1B5C4BE7008C71B7 /* Debug */,
+				45273AA01B5C4BE7008C71B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450A2C2F1B5B095B00177601 /* Project object */;
+}
