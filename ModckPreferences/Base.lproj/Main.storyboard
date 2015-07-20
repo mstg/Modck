@@ -152,6 +152,47 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNE-TA-mWw">
+                                <rect key="frame" x="234" y="181" width="162" height="20"/>
+                                <animations/>
+                                <buttonCell key="cell" type="check" title="Change label background" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="gPe-e4-Bkr">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="HelveticaNeue-Thin"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="changeLabelBG:" target="XfG-lQ-9wD" id="ul7-ES-0er"/>
+                                </connections>
+                            </button>
+                            <textField hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5jL-Dy-3Ho">
+                                <rect key="frame" x="236" y="153" width="41" height="22"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="R" drawsBackground="YES" id="Qoj-wF-1xm">
+                                    <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="uv2-i1-MkH"/>
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zm6-d5-p9s">
+                                <rect key="frame" x="288" y="153" width="41" height="22"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="G" drawsBackground="YES" id="5I8-mX-qtI">
+                                    <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="3Ir-Bh-yXl"/>
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WAa-f3-b0x">
+                                <rect key="frame" x="340" y="153" width="41" height="22"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="B" drawsBackground="YES" id="zNq-wu-mae">
+                                    <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="pfh-8b-pDN"/>
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <animations/>
                     </view>
@@ -162,6 +203,10 @@
                         <outlet property="dockBGR" destination="Rxb-7L-vvp" id="dpQ-rJ-4x5"/>
                         <outlet property="fullWidthDock" destination="ml0-ZT-wp5" id="EJ2-zG-gp7"/>
                         <outlet property="hideLabels" destination="Ag3-6p-zVu" id="5rN-2X-GrC"/>
+                        <outlet property="labelBG" destination="qNE-TA-mWw" id="i5o-f5-nIl"/>
+                        <outlet property="labelBGB" destination="WAa-f3-b0x" id="ezU-7M-d5x"/>
+                        <outlet property="labelBGG" destination="Zm6-d5-p9s" id="n7h-PL-z2n"/>
+                        <outlet property="labelBGR" destination="5jL-Dy-3Ho" id="bS8-tC-Xvv"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

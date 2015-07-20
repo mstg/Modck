@@ -17,24 +17,44 @@
 }
 @end
 
-#pragma mark Full-width Dock
+@interface ECMaterialLayer : CALayer
+{
+	CALayer *_backdropLayer;
+	CALayer *_tintLayer;
+	NSString *_groupName;
+	_Bool _reduceTransparency;
+	NSUInteger _material;
+}
+@end
+
+#pragma mark Full-width Dock and Dock label customization
 ZKSwizzleInterface(_Modck_ECMaterialLayer, ECMaterialLayer, CALayer);
 @implementation _Modck_ECMaterialLayer
 - (void)setBounds:(CGRect)arg1 {
 	if ([[[Preferences sharedInstance] objectForKey:@"modck_fullWidth"] integerValue] == 1) {
 		NSString *groupName = ZKHookIvar(self, NSString *, "_groupName");
+		NSUInteger _material = ZKHookIvar(self, NSUInteger, "_material");
 		
-		if (![groupName isEqualToString:@"background"]) {
+		if ([groupName isEqualToString:@"background"]) {
+			ZKOrig(void, CGRectMake(arg1.origin.x, arg1.origin.y, [[NSScreen mainScreen] frame].size.width, arg1.size.height));
+		} else if (_material == 5){
 			ZKOrig(void, arg1);
-			return;
+			if ([[[Preferences sharedInstance] objectForKey:@"modck_labelBG"] integerValue] == 1) {
+				float red = [[[Preferences sharedInstance] objectForKey:@"modck_labelBGR"] floatValue];
+				float green = [[[Preferences sharedInstance] objectForKey:@"modck_labelBGG"] floatValue];
+				float blue = [[[Preferences sharedInstance] objectForKey:@"modck_labelBGB"] floatValue];
+				
+				NSColor *goodColor = [NSColor colorWithRed:red/255.0 green:green/255 blue:blue/255.0 alpha:1.0];
+				CALayer *tintLayer = ZKHookIvar(self, CALayer *, "_backdropLayer");
+				[tintLayer setBackgroundColor:[goodColor CGColor]];
+			}
+		} else {
+			ZKOrig(void, arg1);
 		}
-		
-		ZKOrig(void, CGRectMake(arg1.origin.x, arg1.origin.y, [[NSScreen mainScreen] frame].size.width, arg1.size.height));
 	} else {
 		ZKOrig(void, arg1);
 	}
 }
-
 @end
 
 #pragma mark Dock customization

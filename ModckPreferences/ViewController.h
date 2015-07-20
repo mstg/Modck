@@ -15,6 +15,10 @@
 @property (weak) IBOutlet NSTextField *dockBGR;
 @property (weak) IBOutlet NSTextField *dockBGG;
 @property (weak) IBOutlet NSTextField *dockBGB;
+@property (weak) IBOutlet NSButton *labelBG;
+@property (weak) IBOutlet NSTextField *labelBGR;
+@property (weak) IBOutlet NSTextField *labelBGG;
+@property (weak) IBOutlet NSTextField *labelBGB;
 
 
 @end
