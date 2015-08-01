@@ -1,9 +1,9 @@
 # Modck
 Customize OS X Dock WIP
 
-**Tested on 10.11**
+Support : **10.10** + **10.11**    
+Tested : **10.11**
 
 # Installation
-Requires Opee installed
-
-Build both targets
+ - Requires Opee installed
+ - Build both targets
