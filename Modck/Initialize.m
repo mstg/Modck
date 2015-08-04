@@ -14,6 +14,7 @@ OPInitialize {
 		NSMutableDictionary *newDict = [[NSMutableDictionary alloc] init];
 
         // Stuff
+        [newDict setObject:[NSNumber numberWithBool:true] forKey:@"modck_enabled"];
         [newDict setObject:[NSNumber numberWithBool:false] forKey:@"modck_fullWidth"];
         [newDict setObject:[NSNumber numberWithBool:false] forKey:@"modck_hideLabels"];
         [newDict setObject:[NSNumber numberWithBool:false] forKey:@"modck_darkenMouseOver"];
