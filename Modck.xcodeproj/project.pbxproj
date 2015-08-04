@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		450A2C481B5B0C5900177601 /* Opee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450A2C471B5B0C5900177601 /* Opee.framework */; };
 		45273A581B5C3578008C71B7 /* ModckLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A571B5C3578008C71B7 /* ModckLabel.m */; };
 		45273A5B1B5C35CA008C71B7 /* ModckFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A5A1B5C35CA008C71B7 /* ModckFloor.m */; };
 		45273A921B5C4BE7008C71B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45273A911B5C4BE7008C71B7 /* AppDelegate.m */; };
@@ -18,13 +17,16 @@
 		455325A31B5C6AB6006D4D0A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 455325A21B5C6AB6006D4D0A /* Credits.rtf */; };
 		45F604AE1B5C5D89009F9EB8 /* Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F604AD1B5C5D89009F9EB8 /* Initialize.m */; };
 		45F604B21B5C5E30009F9EB8 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F604B11B5C5E30009F9EB8 /* Preferences.m */; };
+		FBBC5AE01B6D3CE0007FB947 /* ModckIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC5ADE1B6D3CE0007FB947 /* ModckIndicator.m */; };
+		FBBC5AE11B6D3CE0007FB947 /* ModckTile.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC5ADF1B6D3CE0007FB947 /* ModckTile.m */; };
+		FBBC5AE41B6D4D9D007FB947 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FBBC5AE31B6D4D9D007FB947 /* fishhook.c */; };
+		FBBC5AE71B6D4E1D007FB947 /* Opee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBC5AE61B6D4E1D007FB947 /* Opee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		450A2C371B5B095B00177601 /* Modck.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Modck.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		450A2C3B1B5B095B00177601 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		450A2C3C1B5B095B00177601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		450A2C471B5B0C5900177601 /* Opee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opee.framework; path = ../../../../../Library/Frameworks/Opee.framework; sourceTree = "<group>"; };
 		45273A571B5C3578008C71B7 /* ModckLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModckLabel.m; sourceTree = "<group>"; };
 		45273A5A1B5C35CA008C71B7 /* ModckFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModckFloor.m; sourceTree = "<group>"; };
 		45273A8C1B5C4BE7008C71B7 /* Modck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modck.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +43,11 @@
 		45F604AD1B5C5D89009F9EB8 /* Initialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initialize.m; sourceTree = "<group>"; };
 		45F604B01B5C5E30009F9EB8 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
 		45F604B11B5C5E30009F9EB8 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		FBBC5ADE1B6D3CE0007FB947 /* ModckIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModckIndicator.m; sourceTree = "<group>"; };
+		FBBC5ADF1B6D3CE0007FB947 /* ModckTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModckTile.m; sourceTree = "<group>"; };
+		FBBC5AE21B6D4D9D007FB947 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		FBBC5AE31B6D4D9D007FB947 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		FBBC5AE61B6D4E1D007FB947 /* Opee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Opee.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450A2C481B5B0C5900177601 /* Opee.framework in Frameworks */,
+				FBBC5AE71B6D4E1D007FB947 /* Opee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +72,6 @@
 		450A2C2E1B5B095B00177601 = {
 			isa = PBXGroup;
 			children = (
-				450A2C471B5B0C5900177601 /* Opee.framework */,
 				450A2C391B5B095B00177601 /* Modck */,
 				45273A8D1B5C4BE7008C71B7 /* ModckPreferences */,
 				450A2C381B5B095B00177601 /* Products */,
@@ -84,10 +90,11 @@
 		450A2C391B5B095B00177601 /* Modck */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC5AE61B6D4E1D007FB947 /* Opee.framework */,
+				FBBC5AE51B6D4DA2007FB947 /* Fishhook */,
 				45F604AF1B5C5E1F009F9EB8 /* Preferences */,
 				45F604AC1B5C5D7C009F9EB8 /* Initialize */,
-				45273A591B5C35BE008C71B7 /* Floor */,
-				45273A561B5C3563008C71B7 /* Label */,
+				45273A591B5C35BE008C71B7 /* Theming */,
 				450A2C3A1B5B095B00177601 /* Supporting Files */,
 			);
 			path = Modck;
@@ -102,20 +109,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		45273A561B5C3563008C71B7 /* Label */ = {
+		45273A591B5C35BE008C71B7 /* Theming */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC5ADE1B6D3CE0007FB947 /* ModckIndicator.m */,
+				FBBC5ADF1B6D3CE0007FB947 /* ModckTile.m */,
 				45273A571B5C3578008C71B7 /* ModckLabel.m */,
-			);
-			name = Label;
-			sourceTree = "<group>";
-		};
-		45273A591B5C35BE008C71B7 /* Floor */ = {
-			isa = PBXGroup;
-			children = (
 				45273A5A1B5C35CA008C71B7 /* ModckFloor.m */,
 			);
-			name = Floor;
+			name = Theming;
 			sourceTree = "<group>";
 		};
 		45273A8D1B5C4BE7008C71B7 /* ModckPreferences */ = {
@@ -174,6 +176,15 @@
 				45F604B11B5C5E30009F9EB8 /* Preferences.m */,
 			);
 			name = Preferences;
+			sourceTree = "<group>";
+		};
+		FBBC5AE51B6D4DA2007FB947 /* Fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC5AE21B6D4D9D007FB947 /* fishhook.h */,
+				FBBC5AE31B6D4D9D007FB947 /* fishhook.c */,
+			);
+			name = Fishhook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -R \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Opee/Extensions";
+			shellScript = "# cp -R \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Opee/Extensions";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -292,6 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBC5AE11B6D3CE0007FB947 /* ModckTile.m in Sources */,
+				FBBC5AE41B6D4D9D007FB947 /* fishhook.c in Sources */,
+				FBBC5AE01B6D3CE0007FB947 /* ModckIndicator.m in Sources */,
 				45F604AE1B5C5D89009F9EB8 /* Initialize.m in Sources */,
 				45273A581B5C3578008C71B7 /* ModckLabel.m in Sources */,
 				45F604B21B5C5E30009F9EB8 /* Preferences.m in Sources */,
@@ -358,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -394,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
