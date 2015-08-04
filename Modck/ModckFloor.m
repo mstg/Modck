@@ -148,7 +148,7 @@ ZKSwizzleInterface(_Modck_DOCKFloorLayer, DOCKFloorLayer, CALayer);
     
     // Full width
     if ([[[Preferences sharedInstance] objectForKey:@"modck_fullWidth"] boolValue]) {
-        CGRect rect = _materialLayer.bounds;
+        CGRect rect = _superLayer.bounds;
         if (orient == 0) {
             rect.size.width = [[NSScreen mainScreen] frame].size.width * 2;
             rect.origin.x -= [[NSScreen mainScreen] frame].size.width / 2;
